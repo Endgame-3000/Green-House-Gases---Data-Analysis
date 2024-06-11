@@ -19,8 +19,8 @@ This Django web application allows users to upload CSV files, perform basic data
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Endgame-3000/Green-House-Gases---Data-Analysis.git
+cd Green-House-Gases---Data-Analysis
 ```
 
 ### Step 2: Set Up a Virtual Environment
@@ -56,7 +56,7 @@ Make sure the Django settings are configured correctly, especially the `ALLOWED_
 ```python
 # myproject/settings.py
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
@@ -97,20 +97,10 @@ Open your web browser and navigate to `http://127.0.0.1:8000/dataapp/upload/`.
 
 ### Step 9: Upload a CSV File
 
-Use the provided form to upload a CSV file and view the data analysis and visualizations.
+Use the provided form to upload a CSV file and view the data analysis and visualizations. 
 
 ## Sample CSV File
 
-A sample CSV file (`sample_data.csv`) is provided in the repository for testing purposes. You can find it in the `static` directory.
+A sample CSV file (`sample_data.csv`) is provided in the repository for testing purposes. 
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or need further assistance, please feel free to open an issue or contact me at [your-email@example.com].
-
-```
-
-Make sure to replace placeholders like `https://github.com/yourusername/your-repo-name.git` and `[your-email@example.com]` with the actual values relevant to your project. Also, ensure that all the paths and instructions align with your project structure.
