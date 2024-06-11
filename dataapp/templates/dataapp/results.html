@@ -1,0 +1,27 @@
+<!-- dataapp/templates/dataapp/results.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis Results</title>
+    {% load static %}
+</head>
+<body>
+    <h1>Data Analysis Results</h1>
+    <h2>First Few Rows</h2>
+    <div>{{ head|safe }}</div>
+    <h2>Summary Statistics</h2>
+    <div>{{ description|safe }}</div>
+    <h2>Missing Values</h2>
+    <div>{{ missing_values|safe }}</div>
+    <h2>Histograms</h2>
+    <img src="{% static 'histograms.png' %}" alt="Histograms">
+    <h2>Emissions India</h2>
+    <img src="{% static 'india_emissions.png' %}" alt="India Emissions">
+    <h2>Percentage Distribution</h2>
+    <img src="{% static 'pie_chart.png' %}" alt="Percentage Distribution">
+    <h2>Emission Distribution by Sector</h2>
+    <img src="{% static 'sector_emissions.png' %}" alt="Emission Distribution by Sector">
+    <h2>India vs World</h2>
+    <img src="{% static 'comp_chart.png' %}" alt="India vs World">
+</body>
+</html>
