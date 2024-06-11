@@ -101,6 +101,6 @@ Use the provided form to upload a CSV file and view the data analysis and visual
 
 ## Sample CSV File
 
-A sample CSV file (`sample_data.csv`) is provided in the repository for testing purposes. 
+A sample CSV file (`temp.csv`) is provided in the repository for testing purposes. 
 
 
